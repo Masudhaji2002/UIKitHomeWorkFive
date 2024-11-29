@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         $0.delegate = self
         $0.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return $0
-    }(UITableView(frame: view.frame, style: .grouped))
+    }(UITableView(frame: view.frame, style: .insetGrouped))
 
     override func viewDidLoad() {
         super.viewDidLoad()
